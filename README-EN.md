@@ -15,8 +15,11 @@ If an error occurs in a specific version, please let me know.
 
 ## How to use
 
-[Dictionary]: https://learn.microsoft.com/ko-kr/dotnet/api/system.collections.generic.dictionary-2?view=netstandard-2.0
+[Dictionary]: https://learn.microsoft.com/en-us/dotnet/api/system.collections.generic.dictionary-2?view=netstandard-2.0
 [SerializableDictionary]: Packages/com.rumi727.serializable.dictionary/Runtime/Serializables/SerializableDictionary.cs
+[Json.NET]: https://www.newtonsoft.com/json
+[ScriptableObject]: https://docs.unity3d.com/kr/2022.3/Manual/class-ScriptableObject.html
+[JsonUtility]: https://docs.unity3d.com/ScriptReference/JsonUtility.html
 
 ```csharp
 public class Test : MonoBehaviour
@@ -30,9 +33,9 @@ If you do it like you normally declare a dictionary, it will do everything for y
 
 Additionally, [SerializableDictionary] inherits Dictionary, so you can just use it as you would normally use a dictionary\
 In other words, you can just replace the previously used [Dictionary] with [SerializableDictionary] and it will be completely compatible!\
-So, of course, packages such as [Json.NET](https://www.newtonsoft.com/json) will also detect it as a dictionary ~~(maybe?)~~
+So, of course, packages such as [Json.NET] will also detect it as a dictionary ~~(maybe?)~~
 
-Additionally, since Unity's internal serialization system is used, not only the script but also [ScriptableObject](https://docs.unity3d.com/kr/2022.3/Manual/class-ScriptableObject.html), [JsonUtility](https://docs It can also be used in many places such as .unity3d.com/ScriptReference/JsonUtility.html)\
+Additionally, since it uses Unity's internal serialization system, it can be used not only in scripts but also in various places such as [ScriptableObject] and [JsonUtility]\
 Of course, it also supports things like undo and redo\
 Prefab overriding is also supported, but it is a bit strange due to the nature of classifying keys and values ​​into two lists (I wanted to combine them into one list, but that would make it too complicated).
 
