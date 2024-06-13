@@ -1,0 +1,16 @@
+{
+  "name": "com.rumi727.serializable.dictionary",
+  "version": "1.0.0",
+  "author": {
+    "name": "Rumi"
+  },
+  "unity": "2022.3",
+  "displayName": "Rumi's Serializable Dictionary",
+  "description": "Serializable Dictionary",
+  "keywords": [
+    "Serializable",
+    "Dictionary"
+  ],
+  "license": "MIT",
+  "unityRelease": "0f1"
+}
