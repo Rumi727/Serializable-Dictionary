@@ -1,15 +1,21 @@
-[Dictionary]: https://learn.microsoft.com/ko-kr/dotnet/api/system.collections.generic.dictionary-2?view=netstandard-2.0
-[SerializableDictionary]: Packages/com.rumi727.serializable.dictionary/Runtime/Serializables/SerializableDictionary.cs
-
 # Serializable Dictionary
+
 유니티에서 바로 사용 가능한 직렬화 딕셔너리 입니다
 
 ## 설치 방법
+
+유니티 버전 2022.3.0f1 이상으로 테스트했습니다\
+만약 특정 버전에서 오류가 발생한다면 얘기해주세요
+
 1. 패키지 관리자에서 git URL로 설치합니다
     - \* Rumi's Serializable Dictionary : `https://github.com/Rumi727/Serializable-Dictionary.git?path=Packages/com.rumi727.serializable.dictionary`
 2. 끝!
 
 ## 사용 방법
+
+[Dictionary]: https://learn.microsoft.com/ko-kr/dotnet/api/system.collections.generic.dictionary-2?view=netstandard-2.0
+[SerializableDictionary]: Packages/com.rumi727.serializable.dictionary/Runtime/Serializables/SerializableDictionary.cs
+
 ```csharp
 public class Test : MonoBehaviour
 {
