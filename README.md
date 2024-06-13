@@ -1,5 +1,7 @@
 # Serializable Dictionary
 
+Language available: \[[**한국어 (대한민국)**](README.md)\] \[[English (US)](README-EN.md)\]  
+
 유니티에서 바로 사용 가능한 직렬화 딕셔너리 입니다
 
 ## 설치 방법
@@ -22,6 +24,7 @@ public class Test : MonoBehaviour
   public SerializableDictionary<string, Color> colorDatas;
 }
 ```
+
 네. 이게 끝입니다!\
 평소 딕셔너리 선언하듯이 해주면 알아서 모든걸 다 해줍니다
 
@@ -34,4 +37,5 @@ public class Test : MonoBehaviour
 프리팹 오버라이딩 또한 지원은 하나, 리스트를 2개로 키와 값을 분류하는 그 특성상 조오금 이상하긴 합니다 (리스트 하나로 합치고 싶었는데 그러면 너무 복잡해지더라구요)
 
 ### 인스펙터에서는 어떻게 보이나요?
+
 ![image](https://github.com/Rumi727/Serializable-Dictionary/assets/65212622/39ec5f6e-02c6-4b32-8e65-84eade7917ec)
